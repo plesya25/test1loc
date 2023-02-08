@@ -4,7 +4,7 @@
     <groupId>com.mycompany</groupId>
     <artifactId>macyslocation</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+      <packaging>jar</packaging>
     <dependencies>
           <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -24,20 +24,6 @@
             <scope>test</scope>
             <type>jar</type>
         </dependency>
-        <dependency>
-<groupId>org.seleniumhq.selenium</groupId>
-<artifactId>selenium-chrome-driver</artifactId>
-<version>4.8.0</version>
-<scope>test</scope>
-<type>jar</type>
-</dependency>
-<dependency>
-<groupId>org.seleniumhq.selenium</groupId>
-<artifactId>selenium-support</artifactId>
-<version>4.8.0</version>
-<scope>test</scope>
-<type>jar</type>
-</dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
