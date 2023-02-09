@@ -42,10 +42,7 @@ public class StoreLocationTest {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");     
-        options.addArguments("--disable-gpu");
-        options.addArguments("--window-size=1400,800");  
+ 
 
     }
 
@@ -56,7 +53,6 @@ public class StoreLocationTest {
 
     @Test
     public void StoreLocationTest() throws Exception {  
-    
         driver.get(baseUrl + "chrome://newtab/");
         driver.get("https://www.costco.com/");
         driver.findElement(By.linkText("Locations")).click();
